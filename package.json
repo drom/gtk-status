@@ -1,0 +1,26 @@
+{
+  "name": "gtk-status",
+  "description": "GTK Status Panel",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/gtk-status.git"
+  },
+  "author": "Aliaksei Chapyzhenka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drom/gtk-status/issues"
+  },
+  "homepage": "https://github.com/drom/gtk-status#readme",
+  "devDependencies": {
+    "@drom/eslint-config": "^0.10.0",
+    "eslint": "^7.25.0"
+  },
+  "eslintConfig": {
+    "extends": "@drom/eslint-config/eslint7/gjs4"
+  }
+}
